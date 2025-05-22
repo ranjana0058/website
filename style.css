@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
 nav{
     display:flex;
     justify-content: space-between;
-    padding: 50px 30px;
+    padding: 30px 30px;
+    background-color: azure;
 }
+
 .menu_item{
     display:flex;
     gap: 30px;
+    min-width: fit-content;
+    max-width: fit-content;
+    align-items: center;
+    
 }
 .menu_item a{
     color:black;
@@ -13,3 +21,33 @@ nav{
     cursor: pointer;
     
 }
+.bg{
+    background-image: url(image/background\ image.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    content:"";
+    contain:"";
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.tittle{
+    font-family: "DM Serif Display", serif;
+    font-size: 44px;
+    font-weight: 800;
+    width: 40%;
+    text-align: center;
+    font-style: italic;
+}
+.tittle span{
+    color: orange;
+}
+
+
+
+
+
