@@ -22,7 +22,7 @@ nav{
     
 }
 .bg{
-    background-image: url(image/background\ image.jpg);
+    background-image:url(image/background..jpg);
     background-repeat: no-repeat;
     height: 700px;
     background-position: center;
@@ -46,8 +46,48 @@ nav{
 .tittle span{
     color: orange;
 }
+.fruit{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    
+    
+}
+.table{
+    justify-content: center;
+   background-color: orange;
+    height: 50px;
+    width: 100px;
+    border: none;
 
 
+}
+.table:hover{
+    border:1px solid orange;
+    background-color: white;
+    
+    
+
+}
+
+.text span{
+    color:orange;
+    
+}
+.text{
+    font-size: large;
+}
+.xyz{
+    display: flex;
+    width:90%;
+    margin:0px auto;
+
+}
+.xyz div{
+    flex:1;
+    column:1;
+    
+}
 
 
 
