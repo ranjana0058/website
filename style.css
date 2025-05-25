@@ -1,10 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 
 nav{
     display:flex;
     justify-content: space-between;
     padding: 30px 30px;
     background-color: azure;
+    position:fixed;
+    top:40px;
+    width: 70%;
+    right:0px;
+    left: 0px;
+    margin: 0px auto;
+    border-radius: 2%;
 }
 
 .menu_item{
@@ -56,7 +70,7 @@ nav{
 .table{
     justify-content: center;
    background-color: orange;
-    height: 50px;
+    height: 45px;
     width: 100px;
     border: none;
 
@@ -79,15 +93,44 @@ nav{
 }
 .xyz{
     display: flex;
-    width:90%;
+    width:70%;
     margin:0px auto;
 
 }
 .xyz div{
     flex:1;
-    column:1;
+    
     
 }
+.paragraph{
+    font-size: medium;
+}
+
+
+.vegetable img{
+    height: 100%;
+    width: 100%;
+}
+.bcd{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height:400px;
+    width: 90vw;
+    margin: 0px auto;
+    gap: 20px;
+  
+
+}
+
+.text1{
+    font-size: medium;
+}
+.text1 span{
+    color:orange;
+
+}
+
+
 
 
 
