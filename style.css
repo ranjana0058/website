@@ -107,30 +107,100 @@ nav{
 }
 
 
+
+.bcd{
+    display:flex;
+    height:400px;
+    flex-direction: column;
+    margin: 0px auto;
+    gap: 20px;
+  position: relative;
+width: 100%;
+}
+.vegetable{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    z-index: -1;
+}
 .vegetable img{
     height: 100%;
     width: 100%;
-}
-.bcd{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    height:400px;
-    width: 90vw;
-    margin: 0px auto;
-    gap: 20px;
-  
-
+    object-fit: cover;
 }
 
 .text1{
-    font-size: medium;
+    font-size:large;
+
 }
 .text1 span{
     color:orange;
 
 }
+.paragraph1{
+    font-size:medium;
+}
+h1{
+    position: relative;
+    font-weight:700;
+    width: 30%;
+}
+.whole{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0px auto;
+    gap: 40px;
+}
+.whole .item{
+    background-color: white;
+    width:100%;
+    transition: all .3s ease-in-out;
+    
+
+}
+
+.item .item_image{
+    width: 100%;
+    height: 300px;
+    overflow: clip;
+}
+.item_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item_detail{
+    padding: 10px 20px;
+}
+
+.item_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item_title h1{
+    width: 100%;
+}
+.item_title h2{
+    color: orange;
+}
 
 
+.item:hover{
+    background-color: orange;
+    transition: all .3s ease-in-out;
 
+}
 
+.item:hover .item_title h2{
+    color: black;
+    transition: all .3s ease-in-out;
 
+}
+.item:hover .item_image img{
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+}
